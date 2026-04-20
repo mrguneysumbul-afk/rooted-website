@@ -9,8 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        teal: {
+          DEFAULT: "#1D9E75",
+          light: "#5DCAA5",
+        },
+        coral: {
+          DEFAULT: "#D85A30",
+          light: "#F0997B",
+        },
+        ink: "#2C2C2A",
+        hairline: "#E5E7EB",
+        mist: "#F3F4F6",
+      },
+      fontFamily: {
+        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
       },
     },
   },
