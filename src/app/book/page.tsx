@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { SERVICES, TIME_SLOTS, type Service, type BookingFormData } from "@/types/booking";
+import { SERVICES, TIME_SLOTS, type BookingFormData } from "@/types/booking";
 
 const STEPS = ["Coverage", "Service", "Date & time", "Your details"];
 

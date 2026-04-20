@@ -18,7 +18,6 @@ export default function BeforeAfter() {
   };
 
   const onMouseDown = () => setDragging(true);
-  const onMouseUp = () => setDragging(false);
   const onMouseMove = (e: React.MouseEvent) => { if (dragging) updatePosition(e.clientX); };
   const onTouchMove = (e: React.TouchEvent) => updatePosition(e.touches[0].clientX);
 
